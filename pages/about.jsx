@@ -9,7 +9,7 @@ function About() {
 			  <title>About Us</title>
 			</Head>
 
-			<div style = {{ backgroundImage:'url("https://www.sapporo.co.uk/wp-content/uploads/2018/08/Christmas-decorations-iStock_000048591732_Small.jpg")', backgroundSize: 'cover'}}>
+			<div style = {{ backgroundImage:'url("https://www.myjewishlearning.com/wp-content/uploads/2005/12/pareve-christmas.jpg")', backgroundSize: 'cover'}}>
 				<Navbar />
 
 				<section className="hero">
