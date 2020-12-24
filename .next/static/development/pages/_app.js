@@ -1,4 +1,4 @@
-(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/_app.js"],{
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static\\development\\pages\\_app.js"],{
 
 /***/ "./node_modules/@babel/runtime/helpers/arrayWithHoles.js":
 /*!***************************************************************!*\
@@ -362,7 +362,7 @@ exports = module.exports = __webpack_require__(/*! ../node_modules/css-loader/di
 
 exports.push([module.i, "@import url(https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap);"]);
 // Module
-exports.push([module.i, "body {\n  font-family: \"Source Sans Pro\", sans-serif;\n  font-size: 18px;\n  background-color: white;\n}\n\na[href] {\n  color: #000;\n}\n\n.container {\n  width: 980px;\n  margin-left: auto;\n  margin-right: auto;\n}\n\n.navbar {\n  margin-top: 50px;\n}\n\n.navbar .container {\n  display: flex;\n  align-items: center;\n}\n\n.navbar .logo {\n  font-size: 28px;\n  text-transform: uppercase;\n  letter-spacing: 3px;\n  font-weight: 600;\n  text-decoration: none;\n}\n\n.navbar .nav-links {\n  display: flex;\n  margin-left: auto;\n  list-style: none;\n}\n\n.navbar .nav-links .nav-item {\n  position: relative;\n  display: inline-block;\n  margin-left: 20px;\n  margin-right: 20px;\n  text-decoration: none;\n  transition: opacity 0.3s;\n}\n\n.navbar .nav-links .nav-item.active {\n  font-weight: 700;\n}\n\n.navbar .nav-links .nav-item.active:after {\n  content: \"\";\n  position: absolute;\n  bottom: -10px;\n  left: 0;\n  width: 25px;\n  height: 2px;\n  background-color: #000;\n}\n\n.navbar .nav-links .nav-item:hover {\n  opacity: 0.5;\n}\n\n.hero {\n  padding-top: 100px;\n  padding-bottom: 100px;\n}\n\n.hero .container {\n  display: flex;\n  align-items: center;\n}\n\n.hero .text-wrapper {\n  width: 50%;\n}\n\n.hero .text-wrapper.w-full {\n  width: 100%;\n}\n\n.hero .text-wrapper .title {\n  font-size: 48px;\n  margin-top: 0;\n  margin-bottom: 10px;\n}\n\n.hero .text-wrapper .description {\n  font-size: 22px;\n  line-height: 40px;\n}\n\n.hero .text-wrapper .cta {\n  display: inline-block;\n  padding: 15px 45px;\n  margin-top: 20px;\n  background-color: #000;\n  color: #fff;\n  text-decoration: none;\n  border-radius: 5px;\n  transition: transform 0.3s;\n}\n\n.hero .text-wrapper .cta:hover {\n  transform: scale(1.1);\n}\n\n.hero .image-wrapper {\n  width: 50%;\n  text-align: right;\n}\n\n.portfolio-wrapper {\n  display: flex;\n  margin-left: -10px;\n  margin-right: -10px;\n}\n\n.portfolio-wrapper .portfolio-item {\n  width: 50%;\n  padding-left: 10px;\n  padding-right: 10px;\n  text-align: center;\n}\n\n.portfolio-wrapper .portfolio-item .portfolio-image {\n  max-width: 100%;\n}\n\n.portfolio-wrapper .portfolio-item .portfolio-name {\n  font-size: 24px;\n  margin-top: 10px;\n  margin-bottom: 10px;\n  text-transform: capitalize;\n}\n\n.portfolio-wrapper .portfolio-item .portfolio-category {\n  color: #999;\n}\n\n.contact-links {\n  padding: 0;\n  padding-left: 15px;\n  margin-top: -10px;\n  list-style: square;\n}\n\n.contact-links .contact-item {\n  padding-top: 10px;\n  padding-bottom: 10px;\n}", "",{"version":3,"sources":["/Users/nandinivenkatesh/HolidayHacks/styles/app.scss"],"names":[],"mappings":"AAEA;EACC,0CAAA;EACA,eAAA;EACA,uBAAA;AAAD;;AAIA;EACC,WAAA;AADD;;AAIA;EACC,YAAA;EACA,iBAAA;EACA,kBAAA;AADD;;AAIA;EACC,gBAAA;AADD;;AAGC;EACC,aAAA;EACA,mBAAA;AADF;;AAIC;EACC,eAAA;EACA,yBAAA;EACA,mBAAA;EACA,gBAAA;EACA,qBAAA;AAFF;;AAKC;EACC,aAAA;EACA,iBAAA;EACA,gBAAA;AAHF;;AAKE;EACC,kBAAA;EACA,qBAAA;EACA,iBAAA;EACA,kBAAA;EACA,qBAAA;EACA,wBAAA;AAHH;;AAKG;EACC,gBAAA;AAHJ;;AAII;EACC,WAAA;EACA,kBAAA;EACA,aAAA;EACA,OAAA;EACA,WAAA;EACA,WAAA;EACA,sBAAA;AAFL;;AAMG;EACC,YAAA;AAJJ;;AAUA;EACC,kBAAA;EACA,qBAAA;AAPD;;AASC;EACC,aAAA;EACA,mBAAA;AAPF;;AAUC;EACC,UAAA;AARF;;AAUE;EACC,WAAA;AARH;;AAWE;EACC,eAAA;EACA,aAAA;EACA,mBAAA;AATH;;AAYE;EACC,eAAA;EACA,iBAAA;AAVH;;AAaE;EACC,qBAAA;EACA,kBAAA;EACA,gBAAA;EACA,sBAAA;EACA,WAAA;EACA,qBAAA;EACA,kBAAA;EACA,0BAAA;AAXH;;AAaG;EACC,qBAAA;AAXJ;;AAgBC;EACC,UAAA;EACA,iBAAA;AAdF;;AAkBA;EACC,aAAA;EACA,kBAAA;EACA,mBAAA;AAfD;;AAiBC;EACC,UAAA;EACA,kBAAA;EACA,mBAAA;EACA,kBAAA;AAfF;;AAiBE;EACC,eAAA;AAfH;;AAkBE;EACC,eAAA;EACA,gBAAA;EACA,mBAAA;EACA,0BAAA;AAhBH;;AAmBE;EACC,WAAA;AAjBH;;AAsBA;EACC,UAAA;EACA,kBAAA;EACA,iBAAA;EACA,kBAAA;AAnBD;;AAqBC;EACC,iBAAA;EACA,oBAAA;AAnBF","file":"app.scss","sourcesContent":["@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap');\n\nbody {\n\tfont-family: 'Source Sans Pro', sans-serif;\n\tfont-size: 18px;\n\tbackground-color: white;\n}\n\n\na[href] {\n\tcolor: #000;\n}\n\n.container {\n\twidth: 980px;\n\tmargin-left: auto;\n\tmargin-right: auto;\n}\n\n.navbar {\n\tmargin-top: 50px;\n\n\t.container {\n\t\tdisplay: flex;\n\t\talign-items: center;\n\t}\n\n\t.logo {\n\t\tfont-size: 28px;\n\t\ttext-transform: uppercase;\n\t\tletter-spacing: 3px;\n\t\tfont-weight: 600;\n\t\ttext-decoration: none;\n\t}\n\n\t.nav-links {\n\t\tdisplay: flex;\n\t\tmargin-left: auto;\n\t\tlist-style: none;\n\n\t\t.nav-item {\n\t\t\tposition: relative;\n\t\t\tdisplay: inline-block;\n\t\t\tmargin-left: 20px;\n\t\t\tmargin-right: 20px;\n\t\t\ttext-decoration: none;\n\t\t\ttransition: opacity .3s;\n\n\t\t\t&.active {\n\t\t\t\tfont-weight: 700;\n\t\t\t\t&:after {\n\t\t\t\t\tcontent: '';\n\t\t\t\t\tposition: absolute;\n\t\t\t\t\tbottom: -10px;\n\t\t\t\t\tleft: 0;\n\t\t\t\t\twidth: 25px;\n\t\t\t\t\theight: 2px;\n\t\t\t\t\tbackground-color: #000;\n\t\t\t\t}\n\t\t\t}\n\n\t\t\t&:hover {\n\t\t\t\topacity: .5;\n\t\t\t}\n\t\t}\n\t}\n}\n\n.hero {\n\tpadding-top: 100px;\n\tpadding-bottom: 100px;\n\n\t.container {\n\t\tdisplay: flex;\n\t\talign-items: center;\n\t}\n\n\t.text-wrapper {\n\t\twidth: 50%;\n\n\t\t&.w-full {\n\t\t\twidth: 100%;\n\t\t}\n\n\t\t.title {\n\t\t\tfont-size: 48px;\n\t\t\tmargin-top: 0;\n\t\t\tmargin-bottom: 10px;\n\t\t}\n\n\t\t.description {\n\t\t\tfont-size: 22px;\n\t\t\tline-height: 40px;\n\t\t}\n\n\t\t.cta {\n\t\t\tdisplay: inline-block;\n\t\t\tpadding: 15px 45px;\n\t\t\tmargin-top: 20px;\n\t\t\tbackground-color: #000;\n\t\t\tcolor: #fff;\n\t\t\ttext-decoration: none;\n\t\t\tborder-radius: 5px;\n\t\t\ttransition: transform .3s;\n\n\t\t\t&:hover {\n\t\t\t\ttransform: scale(1.1);\n\t\t\t}\n\t\t}\n\t}\n\n\t.image-wrapper {\n\t\twidth: 50%;\n\t\ttext-align: right;\n\t}\n}\n\n.portfolio-wrapper {\n\tdisplay: flex;\n\tmargin-left: -10px;\n\tmargin-right: -10px;\n\n\t.portfolio-item {\n\t\twidth: 50%;\n\t\tpadding-left: 10px;\n\t\tpadding-right: 10px;\n\t\ttext-align: center;\n\n\t\t.portfolio-image {\n\t\t\tmax-width: 100%;\n\t\t}\n\n\t\t.portfolio-name {\n\t\t\tfont-size: 24px;\n\t\t\tmargin-top: 10px;\n\t\t\tmargin-bottom: 10px;\n\t\t\ttext-transform: capitalize;\n\t\t}\n\n\t\t.portfolio-category {\n\t\t\tcolor: #999;\n\t\t}\n\t}\n}\n\n.contact-links {\n\tpadding: 0;\n\tpadding-left: 15px;\n\tmargin-top: -10px;\n\tlist-style: square;\n\n\t.contact-item {\n\t\tpadding-top: 10px;\n\t\tpadding-bottom: 10px;\n\t}\n}"]}]);
+exports.push([module.i, "body {\n  font-family: \"Source Sans Pro\", sans-serif;\n  font-size: 18px;\n  background-color: white;\n}\n\na[href] {\n  color: #000;\n}\n\n.container {\n  width: 980px;\n  margin-left: auto;\n  margin-right: auto;\n}\n\n.navbar {\n  margin-top: 50px;\n}\n\n.navbar .container {\n  display: flex;\n  align-items: center;\n}\n\n.navbar .logo {\n  font-size: 28px;\n  text-transform: uppercase;\n  letter-spacing: 3px;\n  font-weight: 600;\n  text-decoration: none;\n}\n\n.navbar .nav-links {\n  display: flex;\n  margin-left: auto;\n  list-style: none;\n}\n\n.navbar .nav-links .nav-item {\n  position: relative;\n  display: inline-block;\n  margin-left: 20px;\n  margin-right: 20px;\n  text-decoration: none;\n  transition: opacity 0.3s;\n}\n\n.navbar .nav-links .nav-item.active {\n  font-weight: 700;\n}\n\n.navbar .nav-links .nav-item.active:after {\n  content: \"\";\n  position: absolute;\n  bottom: -10px;\n  left: 0;\n  width: 25px;\n  height: 2px;\n  background-color: #000;\n}\n\n.navbar .nav-links .nav-item:hover {\n  opacity: 0.5;\n}\n\n.hero {\n  padding-top: 100px;\n  padding-bottom: 100px;\n}\n\n.hero .container {\n  display: flex;\n  align-items: center;\n}\n\n.hero .text-wrapper {\n  width: 50%;\n}\n\n.hero .text-wrapper.w-full {\n  width: 100%;\n}\n\n.hero .text-wrapper .title {\n  font-size: 48px;\n  margin-top: 0;\n  margin-bottom: 10px;\n}\n\n.hero .text-wrapper .description {\n  font-size: 22px;\n  line-height: 40px;\n}\n\n.hero .text-wrapper .cta {\n  display: inline-block;\n  padding: 15px 45px;\n  margin-top: 20px;\n  background-color: #000;\n  color: #fff;\n  text-decoration: none;\n  border-radius: 5px;\n  transition: transform 0.3s;\n}\n\n.hero .text-wrapper .cta:hover {\n  transform: scale(1.1);\n}\n\n.hero .image-wrapper {\n  width: 50%;\n  text-align: right;\n}\n\n.portfolio-wrapper {\n  display: flex;\n  margin-left: -10px;\n  margin-right: -10px;\n}\n\n.portfolio-wrapper .portfolio-item {\n  width: 50%;\n  padding-left: 10px;\n  padding-right: 10px;\n  text-align: center;\n}\n\n.portfolio-wrapper .portfolio-item .portfolio-image {\n  max-width: 100%;\n}\n\n.portfolio-wrapper .portfolio-item .portfolio-name {\n  font-size: 24px;\n  margin-top: 10px;\n  margin-bottom: 10px;\n  text-transform: capitalize;\n}\n\n.portfolio-wrapper .portfolio-item .portfolio-category {\n  color: #999;\n}\n\n.contact-links {\n  padding: 0;\n  padding-left: 15px;\n  margin-top: -10px;\n  list-style: square;\n}\n\n.contact-links .contact-item {\n  padding-top: 10px;\n  padding-bottom: 10px;\n}", "",{"version":3,"sources":["E:/ORGANIZER/HOLIDAY_HACKS/HolidayHacks/styles/app.scss"],"names":[],"mappings":"AAEA;EACC,0CAAA;EACA,eAAA;EACA,uBAAA;AAAD;;AAIA;EACC,WAAA;AADD;;AAIA;EACC,YAAA;EACA,iBAAA;EACA,kBAAA;AADD;;AAIA;EACC,gBAAA;AADD;;AAGC;EACC,aAAA;EACA,mBAAA;AADF;;AAIC;EACC,eAAA;EACA,yBAAA;EACA,mBAAA;EACA,gBAAA;EACA,qBAAA;AAFF;;AAKC;EACC,aAAA;EACA,iBAAA;EACA,gBAAA;AAHF;;AAKE;EACC,kBAAA;EACA,qBAAA;EACA,iBAAA;EACA,kBAAA;EACA,qBAAA;EACA,wBAAA;AAHH;;AAKG;EACC,gBAAA;AAHJ;;AAII;EACC,WAAA;EACA,kBAAA;EACA,aAAA;EACA,OAAA;EACA,WAAA;EACA,WAAA;EACA,sBAAA;AAFL;;AAMG;EACC,YAAA;AAJJ;;AAUA;EACC,kBAAA;EACA,qBAAA;AAPD;;AASC;EACC,aAAA;EACA,mBAAA;AAPF;;AAUC;EACC,UAAA;AARF;;AAUE;EACC,WAAA;AARH;;AAWE;EACC,eAAA;EACA,aAAA;EACA,mBAAA;AATH;;AAYE;EACC,eAAA;EACA,iBAAA;AAVH;;AAaE;EACC,qBAAA;EACA,kBAAA;EACA,gBAAA;EACA,sBAAA;EACA,WAAA;EACA,qBAAA;EACA,kBAAA;EACA,0BAAA;AAXH;;AAaG;EACC,qBAAA;AAXJ;;AAgBC;EACC,UAAA;EACA,iBAAA;AAdF;;AAkBA;EACC,aAAA;EACA,kBAAA;EACA,mBAAA;AAfD;;AAiBC;EACC,UAAA;EACA,kBAAA;EACA,mBAAA;EACA,kBAAA;AAfF;;AAiBE;EACC,eAAA;AAfH;;AAkBE;EACC,eAAA;EACA,gBAAA;EACA,mBAAA;EACA,0BAAA;AAhBH;;AAmBE;EACC,WAAA;AAjBH;;AAsBA;EACC,UAAA;EACA,kBAAA;EACA,iBAAA;EACA,kBAAA;AAnBD;;AAqBC;EACC,iBAAA;EACA,oBAAA;AAnBF","file":"app.scss","sourcesContent":["@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap');\r\n\r\nbody {\r\n\tfont-family: 'Source Sans Pro', sans-serif;\r\n\tfont-size: 18px;\r\n\tbackground-color: white;\r\n}\r\n\r\n\r\na[href] {\r\n\tcolor: #000;\r\n}\r\n\r\n.container {\r\n\twidth: 980px;\r\n\tmargin-left: auto;\r\n\tmargin-right: auto;\r\n}\r\n\r\n.navbar {\r\n\tmargin-top: 50px;\r\n\r\n\t.container {\r\n\t\tdisplay: flex;\r\n\t\talign-items: center;\r\n\t}\r\n\r\n\t.logo {\r\n\t\tfont-size: 28px;\r\n\t\ttext-transform: uppercase;\r\n\t\tletter-spacing: 3px;\r\n\t\tfont-weight: 600;\r\n\t\ttext-decoration: none;\r\n\t}\r\n\r\n\t.nav-links {\r\n\t\tdisplay: flex;\r\n\t\tmargin-left: auto;\r\n\t\tlist-style: none;\r\n\r\n\t\t.nav-item {\r\n\t\t\tposition: relative;\r\n\t\t\tdisplay: inline-block;\r\n\t\t\tmargin-left: 20px;\r\n\t\t\tmargin-right: 20px;\r\n\t\t\ttext-decoration: none;\r\n\t\t\ttransition: opacity .3s;\r\n\r\n\t\t\t&.active {\r\n\t\t\t\tfont-weight: 700;\r\n\t\t\t\t&:after {\r\n\t\t\t\t\tcontent: '';\r\n\t\t\t\t\tposition: absolute;\r\n\t\t\t\t\tbottom: -10px;\r\n\t\t\t\t\tleft: 0;\r\n\t\t\t\t\twidth: 25px;\r\n\t\t\t\t\theight: 2px;\r\n\t\t\t\t\tbackground-color: #000;\r\n\t\t\t\t}\r\n\t\t\t}\r\n\r\n\t\t\t&:hover {\r\n\t\t\t\topacity: .5;\r\n\t\t\t}\r\n\t\t}\r\n\t}\r\n}\r\n\r\n.hero {\r\n\tpadding-top: 100px;\r\n\tpadding-bottom: 100px;\r\n\r\n\t.container {\r\n\t\tdisplay: flex;\r\n\t\talign-items: center;\r\n\t}\r\n\r\n\t.text-wrapper {\r\n\t\twidth: 50%;\r\n\r\n\t\t&.w-full {\r\n\t\t\twidth: 100%;\r\n\t\t}\r\n\r\n\t\t.title {\r\n\t\t\tfont-size: 48px;\r\n\t\t\tmargin-top: 0;\r\n\t\t\tmargin-bottom: 10px;\r\n\t\t}\r\n\r\n\t\t.description {\r\n\t\t\tfont-size: 22px;\r\n\t\t\tline-height: 40px;\r\n\t\t}\r\n\r\n\t\t.cta {\r\n\t\t\tdisplay: inline-block;\r\n\t\t\tpadding: 15px 45px;\r\n\t\t\tmargin-top: 20px;\r\n\t\t\tbackground-color: #000;\r\n\t\t\tcolor: #fff;\r\n\t\t\ttext-decoration: none;\r\n\t\t\tborder-radius: 5px;\r\n\t\t\ttransition: transform .3s;\r\n\r\n\t\t\t&:hover {\r\n\t\t\t\ttransform: scale(1.1);\r\n\t\t\t}\r\n\t\t}\r\n\t}\r\n\r\n\t.image-wrapper {\r\n\t\twidth: 50%;\r\n\t\ttext-align: right;\r\n\t}\r\n}\r\n\r\n.portfolio-wrapper {\r\n\tdisplay: flex;\r\n\tmargin-left: -10px;\r\n\tmargin-right: -10px;\r\n\r\n\t.portfolio-item {\r\n\t\twidth: 50%;\r\n\t\tpadding-left: 10px;\r\n\t\tpadding-right: 10px;\r\n\t\ttext-align: center;\r\n\r\n\t\t.portfolio-image {\r\n\t\t\tmax-width: 100%;\r\n\t\t}\r\n\r\n\t\t.portfolio-name {\r\n\t\t\tfont-size: 24px;\r\n\t\t\tmargin-top: 10px;\r\n\t\t\tmargin-bottom: 10px;\r\n\t\t\ttext-transform: capitalize;\r\n\t\t}\r\n\r\n\t\t.portfolio-category {\r\n\t\t\tcolor: #999;\r\n\t\t}\r\n\t}\r\n}\r\n\r\n.contact-links {\r\n\tpadding: 0;\r\n\tpadding-left: 15px;\r\n\tmargin-top: -10px;\r\n\tlist-style: square;\r\n\r\n\t.contact-item {\r\n\t\tpadding-top: 10px;\r\n\t\tpadding-bottom: 10px;\r\n\t}\r\n}"]}]);
 
 
 /***/ }),
@@ -1362,7 +1362,7 @@ var Router = /*#__PURE__*/function () {
             __N_SSP = routeInfo.__N_SSP;
 
         if (true) {
-          var _require = __webpack_require__(/*! react-is */ "./node_modules/next/node_modules/react-is/index.js"),
+          var _require = __webpack_require__(/*! react-is */ "./node_modules/react-is/index.js"),
               isValidElementType = _require.isValidElementType;
 
           if (!isValidElementType(Component)) {
@@ -1914,10 +1914,219 @@ exports.ST = exports.SP && typeof performance.mark === 'function' && typeof perf
 
 /***/ }),
 
-/***/ "./node_modules/next/node_modules/react-is/cjs/react-is.development.js":
-/*!*****************************************************************************!*\
-  !*** ./node_modules/next/node_modules/react-is/cjs/react-is.development.js ***!
-  \*****************************************************************************/
+/***/ "./node_modules/querystring-es3/decode.js":
+/*!************************************************!*\
+  !*** ./node_modules/querystring-es3/decode.js ***!
+  \************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+// Copyright Joyent, Inc. and other Node contributors.
+//
+// Permission is hereby granted, free of charge, to any person obtaining a
+// copy of this software and associated documentation files (the
+// "Software"), to deal in the Software without restriction, including
+// without limitation the rights to use, copy, modify, merge, publish,
+// distribute, sublicense, and/or sell copies of the Software, and to permit
+// persons to whom the Software is furnished to do so, subject to the
+// following conditions:
+//
+// The above copyright notice and this permission notice shall be included
+// in all copies or substantial portions of the Software.
+//
+// THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+// OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+// MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN
+// NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM,
+// DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR
+// OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE
+// USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+
+
+// If obj.hasOwnProperty has been overridden, then calling
+// obj.hasOwnProperty(prop) will break.
+// See: https://github.com/joyent/node/issues/1707
+function hasOwnProperty(obj, prop) {
+  return Object.prototype.hasOwnProperty.call(obj, prop);
+}
+
+module.exports = function(qs, sep, eq, options) {
+  sep = sep || '&';
+  eq = eq || '=';
+  var obj = {};
+
+  if (typeof qs !== 'string' || qs.length === 0) {
+    return obj;
+  }
+
+  var regexp = /\+/g;
+  qs = qs.split(sep);
+
+  var maxKeys = 1000;
+  if (options && typeof options.maxKeys === 'number') {
+    maxKeys = options.maxKeys;
+  }
+
+  var len = qs.length;
+  // maxKeys <= 0 means that we should not limit keys count
+  if (maxKeys > 0 && len > maxKeys) {
+    len = maxKeys;
+  }
+
+  for (var i = 0; i < len; ++i) {
+    var x = qs[i].replace(regexp, '%20'),
+        idx = x.indexOf(eq),
+        kstr, vstr, k, v;
+
+    if (idx >= 0) {
+      kstr = x.substr(0, idx);
+      vstr = x.substr(idx + 1);
+    } else {
+      kstr = x;
+      vstr = '';
+    }
+
+    k = decodeURIComponent(kstr);
+    v = decodeURIComponent(vstr);
+
+    if (!hasOwnProperty(obj, k)) {
+      obj[k] = v;
+    } else if (isArray(obj[k])) {
+      obj[k].push(v);
+    } else {
+      obj[k] = [obj[k], v];
+    }
+  }
+
+  return obj;
+};
+
+var isArray = Array.isArray || function (xs) {
+  return Object.prototype.toString.call(xs) === '[object Array]';
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/querystring-es3/encode.js":
+/*!************************************************!*\
+  !*** ./node_modules/querystring-es3/encode.js ***!
+  \************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+// Copyright Joyent, Inc. and other Node contributors.
+//
+// Permission is hereby granted, free of charge, to any person obtaining a
+// copy of this software and associated documentation files (the
+// "Software"), to deal in the Software without restriction, including
+// without limitation the rights to use, copy, modify, merge, publish,
+// distribute, sublicense, and/or sell copies of the Software, and to permit
+// persons to whom the Software is furnished to do so, subject to the
+// following conditions:
+//
+// The above copyright notice and this permission notice shall be included
+// in all copies or substantial portions of the Software.
+//
+// THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+// OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+// MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN
+// NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM,
+// DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR
+// OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE
+// USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+
+
+var stringifyPrimitive = function(v) {
+  switch (typeof v) {
+    case 'string':
+      return v;
+
+    case 'boolean':
+      return v ? 'true' : 'false';
+
+    case 'number':
+      return isFinite(v) ? v : '';
+
+    default:
+      return '';
+  }
+};
+
+module.exports = function(obj, sep, eq, name) {
+  sep = sep || '&';
+  eq = eq || '=';
+  if (obj === null) {
+    obj = undefined;
+  }
+
+  if (typeof obj === 'object') {
+    return map(objectKeys(obj), function(k) {
+      var ks = encodeURIComponent(stringifyPrimitive(k)) + eq;
+      if (isArray(obj[k])) {
+        return map(obj[k], function(v) {
+          return ks + encodeURIComponent(stringifyPrimitive(v));
+        }).join(sep);
+      } else {
+        return ks + encodeURIComponent(stringifyPrimitive(obj[k]));
+      }
+    }).join(sep);
+
+  }
+
+  if (!name) return '';
+  return encodeURIComponent(stringifyPrimitive(name)) + eq +
+         encodeURIComponent(stringifyPrimitive(obj));
+};
+
+var isArray = Array.isArray || function (xs) {
+  return Object.prototype.toString.call(xs) === '[object Array]';
+};
+
+function map (xs, f) {
+  if (xs.map) return xs.map(f);
+  var res = [];
+  for (var i = 0; i < xs.length; i++) {
+    res.push(f(xs[i], i));
+  }
+  return res;
+}
+
+var objectKeys = Object.keys || function (obj) {
+  var res = [];
+  for (var key in obj) {
+    if (Object.prototype.hasOwnProperty.call(obj, key)) res.push(key);
+  }
+  return res;
+};
+
+
+/***/ }),
+
+/***/ "./node_modules/querystring-es3/index.js":
+/*!***********************************************!*\
+  !*** ./node_modules/querystring-es3/index.js ***!
+  \***********************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+exports.decode = exports.parse = __webpack_require__(/*! ./decode */ "./node_modules/querystring-es3/decode.js");
+exports.encode = exports.stringify = __webpack_require__(/*! ./encode */ "./node_modules/querystring-es3/encode.js");
+
+
+/***/ }),
+
+/***/ "./node_modules/react-is/cjs/react-is.development.js":
+/*!***********************************************************!*\
+  !*** ./node_modules/react-is/cjs/react-is.development.js ***!
+  \***********************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -2153,10 +2362,10 @@ exports.isSuspense = isSuspense;
 
 /***/ }),
 
-/***/ "./node_modules/next/node_modules/react-is/index.js":
-/*!**********************************************************!*\
-  !*** ./node_modules/next/node_modules/react-is/index.js ***!
-  \**********************************************************/
+/***/ "./node_modules/react-is/index.js":
+/*!****************************************!*\
+  !*** ./node_modules/react-is/index.js ***!
+  \****************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -2164,217 +2373,8 @@ exports.isSuspense = isSuspense;
 
 
 if (false) {} else {
-  module.exports = __webpack_require__(/*! ./cjs/react-is.development.js */ "./node_modules/next/node_modules/react-is/cjs/react-is.development.js");
+  module.exports = __webpack_require__(/*! ./cjs/react-is.development.js */ "./node_modules/react-is/cjs/react-is.development.js");
 }
-
-
-/***/ }),
-
-/***/ "./node_modules/querystring-es3/decode.js":
-/*!************************************************!*\
-  !*** ./node_modules/querystring-es3/decode.js ***!
-  \************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-// Copyright Joyent, Inc. and other Node contributors.
-//
-// Permission is hereby granted, free of charge, to any person obtaining a
-// copy of this software and associated documentation files (the
-// "Software"), to deal in the Software without restriction, including
-// without limitation the rights to use, copy, modify, merge, publish,
-// distribute, sublicense, and/or sell copies of the Software, and to permit
-// persons to whom the Software is furnished to do so, subject to the
-// following conditions:
-//
-// The above copyright notice and this permission notice shall be included
-// in all copies or substantial portions of the Software.
-//
-// THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
-// OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
-// MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN
-// NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM,
-// DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR
-// OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE
-// USE OR OTHER DEALINGS IN THE SOFTWARE.
-
-
-
-// If obj.hasOwnProperty has been overridden, then calling
-// obj.hasOwnProperty(prop) will break.
-// See: https://github.com/joyent/node/issues/1707
-function hasOwnProperty(obj, prop) {
-  return Object.prototype.hasOwnProperty.call(obj, prop);
-}
-
-module.exports = function(qs, sep, eq, options) {
-  sep = sep || '&';
-  eq = eq || '=';
-  var obj = {};
-
-  if (typeof qs !== 'string' || qs.length === 0) {
-    return obj;
-  }
-
-  var regexp = /\+/g;
-  qs = qs.split(sep);
-
-  var maxKeys = 1000;
-  if (options && typeof options.maxKeys === 'number') {
-    maxKeys = options.maxKeys;
-  }
-
-  var len = qs.length;
-  // maxKeys <= 0 means that we should not limit keys count
-  if (maxKeys > 0 && len > maxKeys) {
-    len = maxKeys;
-  }
-
-  for (var i = 0; i < len; ++i) {
-    var x = qs[i].replace(regexp, '%20'),
-        idx = x.indexOf(eq),
-        kstr, vstr, k, v;
-
-    if (idx >= 0) {
-      kstr = x.substr(0, idx);
-      vstr = x.substr(idx + 1);
-    } else {
-      kstr = x;
-      vstr = '';
-    }
-
-    k = decodeURIComponent(kstr);
-    v = decodeURIComponent(vstr);
-
-    if (!hasOwnProperty(obj, k)) {
-      obj[k] = v;
-    } else if (isArray(obj[k])) {
-      obj[k].push(v);
-    } else {
-      obj[k] = [obj[k], v];
-    }
-  }
-
-  return obj;
-};
-
-var isArray = Array.isArray || function (xs) {
-  return Object.prototype.toString.call(xs) === '[object Array]';
-};
-
-
-/***/ }),
-
-/***/ "./node_modules/querystring-es3/encode.js":
-/*!************************************************!*\
-  !*** ./node_modules/querystring-es3/encode.js ***!
-  \************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-// Copyright Joyent, Inc. and other Node contributors.
-//
-// Permission is hereby granted, free of charge, to any person obtaining a
-// copy of this software and associated documentation files (the
-// "Software"), to deal in the Software without restriction, including
-// without limitation the rights to use, copy, modify, merge, publish,
-// distribute, sublicense, and/or sell copies of the Software, and to permit
-// persons to whom the Software is furnished to do so, subject to the
-// following conditions:
-//
-// The above copyright notice and this permission notice shall be included
-// in all copies or substantial portions of the Software.
-//
-// THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
-// OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
-// MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN
-// NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM,
-// DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR
-// OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE
-// USE OR OTHER DEALINGS IN THE SOFTWARE.
-
-
-
-var stringifyPrimitive = function(v) {
-  switch (typeof v) {
-    case 'string':
-      return v;
-
-    case 'boolean':
-      return v ? 'true' : 'false';
-
-    case 'number':
-      return isFinite(v) ? v : '';
-
-    default:
-      return '';
-  }
-};
-
-module.exports = function(obj, sep, eq, name) {
-  sep = sep || '&';
-  eq = eq || '=';
-  if (obj === null) {
-    obj = undefined;
-  }
-
-  if (typeof obj === 'object') {
-    return map(objectKeys(obj), function(k) {
-      var ks = encodeURIComponent(stringifyPrimitive(k)) + eq;
-      if (isArray(obj[k])) {
-        return map(obj[k], function(v) {
-          return ks + encodeURIComponent(stringifyPrimitive(v));
-        }).join(sep);
-      } else {
-        return ks + encodeURIComponent(stringifyPrimitive(obj[k]));
-      }
-    }).join(sep);
-
-  }
-
-  if (!name) return '';
-  return encodeURIComponent(stringifyPrimitive(name)) + eq +
-         encodeURIComponent(stringifyPrimitive(obj));
-};
-
-var isArray = Array.isArray || function (xs) {
-  return Object.prototype.toString.call(xs) === '[object Array]';
-};
-
-function map (xs, f) {
-  if (xs.map) return xs.map(f);
-  var res = [];
-  for (var i = 0; i < xs.length; i++) {
-    res.push(f(xs[i], i));
-  }
-  return res;
-}
-
-var objectKeys = Object.keys || function (obj) {
-  var res = [];
-  for (var key in obj) {
-    if (Object.prototype.hasOwnProperty.call(obj, key)) res.push(key);
-  }
-  return res;
-};
-
-
-/***/ }),
-
-/***/ "./node_modules/querystring-es3/index.js":
-/*!***********************************************!*\
-  !*** ./node_modules/querystring-es3/index.js ***!
-  \***********************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-exports.decode = exports.parse = __webpack_require__(/*! ./decode */ "./node_modules/querystring-es3/decode.js");
-exports.encode = exports.stringify = __webpack_require__(/*! ./encode */ "./node_modules/querystring-es3/encode.js");
 
 
 /***/ }),
@@ -3458,7 +3458,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _styles_app_scss__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../styles/app.scss */ "./styles/app.scss");
 /* harmony import */ var _styles_app_scss__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_styles_app_scss__WEBPACK_IMPORTED_MODULE_2__);
 
-var _jsxFileName = "/Users/nandinivenkatesh/HolidayHacks/pages/_app.jsx";
+var _jsxFileName = "E:\\ORGANIZER\\HOLIDAY_HACKS\\HolidayHacks\\pages\\_app.jsx";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
  // This default export is required in a new `pages/_app.js` file.
@@ -3547,7 +3547,7 @@ if (true) {
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(/*! next-client-pages-loader?page=%2F_app&absolutePagePath=private-next-pages%2F_app.jsx! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F_app&absolutePagePath=private-next-pages%2F_app.jsx!./");
-module.exports = __webpack_require__(/*! /Users/nandinivenkatesh/HolidayHacks/node_modules/next/dist/client/router.js */"./node_modules/next/dist/client/router.js");
+module.exports = __webpack_require__(/*! E:\ORGANIZER\HOLIDAY_HACKS\HolidayHacks\node_modules\next\dist\client\router.js */"./node_modules/next/dist/client/router.js");
 
 
 /***/ }),

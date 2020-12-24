@@ -27,10 +27,6 @@
     "/budgeting": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
-    ],
-    "/calendar": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
     ]
   }
 }

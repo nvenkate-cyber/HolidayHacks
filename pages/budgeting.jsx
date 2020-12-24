@@ -9,7 +9,7 @@ function Budgeting() {
 			  <title>Budgeting</title>
 			</Head>
 
-			<div style = {{ backgroundImage:'url("https://s.itl.cat/pngfile/s/173-1739156_burgundy-dark-red-aesthetic-background.jpg")', backgroundsize: 'cover'}}>
+			<div style = {{ backgroundImage:'url("https://www.heritagepark.ca/sites/default/files/2019-10/cia-1500x525_.jpg")', backgroundSize: 'cover'}}>
 				<Navbar />
 
 				<section className="hero">
