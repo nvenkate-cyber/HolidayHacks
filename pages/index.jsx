@@ -11,56 +11,36 @@ export default function Home(props) {
     return res.json();
   });
   if (!data) return <h1>Loading...</h1>;
-  let loggedIn = false;
-  if (data.email) {
-    loggedIn = true;
-  }
-
 
   return (
     <>
-      <Head>
-        <title>Home</title>
+      <Head >
+        <title>Holiday Home</title>
       </Head>
-
-      <Navbar />
-     {loggedIn && (
-      <>
-       <p>Welcome {data.email}!</p>
-        
-        <button
-          onClick={() => {
-            cookie.remove('token');
-            revalidate();
-          }}>
-          Logout
-        </button>
-      </>
-    )}
-
-{!loggedIn && (
-      <section className="hero">
-        <div className="container">
-          <div className="text-wrapper">
-            <br></br>
-            <h1 className="title">Hi there, 
-            <br></br>Welcome to Tempus <span class="wave">👋</span>
-          
-            </h1>
-            <p className="description">Join our supportive community of anxiety. You are not alone anymore.</p>
-
-            <Link href="/about"><a className="cta">Learn More</a></Link>
-          </div> </div>
-
-         
-        <>
-          <Link href="/login">Login</Link>
-          <p>or</p>
-          <Link href="/signup">Sign Up</Link>
-        </>
+      <div style = {{ backgroundImage:'url("https://api.time.com/wp-content/uploads/2019/06/what-is-half-christmas-workaholics.jpg")', backgroundsize: 'cover'}}>
       
-      </section>
-      )}
+      <Navbar />
+        
+          <section className="hero" >
+          <div className="container">
+            <div className="text-wrapper">
+              <br></br>
+              <h1 className="title" style ={{color: 'white'}}>Hi there, 
+              <br></br>
+              Welcome to Holiday Hacks! <span class="wave">🎄</span>
+              <br></br>
+              <br></br>
+              <br></br>
+              <br></br>
+              <br></br>
+              <br></br>
+              </h1>
+              
+              <Link href="/about"><a className="cta">Learn More</a></Link>
+          </div> </div>
+        </section>
+        </div>
+        
     </>
   );
 }
