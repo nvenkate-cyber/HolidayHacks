@@ -17,7 +17,7 @@ function App() {
 				<title>Calendar</title>
 			</Head>
 
-			<div style = {{ backgroundImage:'url("https://wpamelia.com/wp-content/uploads/2019/02/astronomy-constellation-dark-998641.jpg")', backgroundsize: 'cover'}}>
+			<div style = {{ backgroundImage:'url("https://i.guim.co.uk/img/media/5625255b3820fdde2ddecce7793679818bcd3b8f/0_29_3008_1805/master/3008.jpg?width=1200&height=900&quality=85&auto=format&fit=crop&s=b0317ce57ee33b30df244731fa0d9211")', backgroundSize: 'cover'}}>
 				<Navbar />
 				
 				<Calendar 
@@ -26,6 +26,7 @@ function App() {
 				/>
 				<p style = {{ color: 'white' }}>Current selected date is <b>{moment(dateState).format('MMMM Do YYYY')}</b></p>
 				<br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
+				<br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
 			</div>
 			
 		</>
