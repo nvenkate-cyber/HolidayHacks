@@ -4,9 +4,10 @@ import Head from 'next/head';
 import React, { Component } from 'react';
 import Calendar from 'react-calendar';
 import {useState} from 'react';
-import moment from 'moment'
+import moment from 'moment';
 
-function App() {
+
+export default function App() {
 	const [dateState, setDateState] = useState(new Date())
 	const changeDate = (e) => {
 		setDateState(e)
@@ -21,10 +22,12 @@ function App() {
 				<Navbar />
 				
 				<Calendar 
+					className="react-calendar"
 					value={dateState}
 					onChange={changeDate}
+					style = {{ color: 'white' }}
 				/>
-				<p style = {{ color: 'white' }}>Current selected date is <b>{moment(dateState).format('MMMM Do YYYY')}</b></p>
+				<p style = {{ color: 'white' }}>Current selected date is <b>{moment(dateState).format('dddd, MMMM Do, YYYY')}</b></p>
 				<br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
 				<br></br><br></br><br></br><br></br><br></br><br></br><br></br><br></br>
 			</div>
@@ -32,5 +35,3 @@ function App() {
 		</>
 	);
 }
-
-export default App;
