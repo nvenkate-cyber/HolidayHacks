@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import Navbar from '../components/Navbar';
 import Head from 'next/head'
+import BudgetStyle  from '../styles/budgeting.module.scss'
 
 function Budgeting() {
 	return (
@@ -9,8 +10,8 @@ function Budgeting() {
 			  <title>Budgeting</title>
 			</Head>
 
-			<div style = {{ backgroundImage:'url("https://www.heritagepark.ca/sites/default/files/2019-10/cia-1500x525_.jpg")', backgroundSize: 'cover'}}>
 				<Navbar />
+				<div style = {{ backgroundImage:'url("https://kateandtoms.com/wp-content/uploads/2019/12/new-years-eve-st-ives-cornwall.jpg")', backgroundSize: 'cover'}}>
 
 				<section className="hero">
 					<div className="container">
@@ -18,7 +19,7 @@ function Budgeting() {
 						<h1 className="title" style ={{color: 'white'}}>
 							<br></br>
 							<br></br>
-							<br></br>Budgets<br></br><br></br></h1>
+							<br></br><br></br><br></br></h1> 
 						<p className="description" style ={{color: 'white'}}>
 						<br></br><br></br><br></br><br></br><br></br><br></br></p>
 						</div>
@@ -29,5 +30,4 @@ function Budgeting() {
 		</>
 	);
 }
-
 export default Budgeting;

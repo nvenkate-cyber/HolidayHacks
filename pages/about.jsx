@@ -8,9 +8,9 @@ function About() {
 			<Head>
 			  <title>About Us</title>
 			</Head>
+			<Navbar />
 
 			<div style = {{ backgroundImage:'url("https://www.myjewishlearning.com/wp-content/uploads/2005/12/pareve-christmas.jpg")', backgroundSize: 'cover'}}>
-				<Navbar />
 
 				<section className="hero">
 					<div className="container">

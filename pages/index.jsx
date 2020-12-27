@@ -17,9 +17,10 @@ export default function Home(props) {
       <Head >
         <title>Holiday Home</title>
       </Head>
+      <Navbar />
+
       <div style = {{ backgroundImage:'url("https://api.time.com/wp-content/uploads/2019/06/what-is-half-christmas-workaholics.jpg")', backgroundsize: 'cover'}}>
       
-      <Navbar />
         
           <section className="hero" >
           <div className="container">
